@@ -1,0 +1,15 @@
+.coverphoto{
+    height: 44vh;   
+    position: relative;
+    overflow: auto;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 25%, rgba(0, 0, 0, 0.9) 100%), url('../images/afrcover.jpg') no-repeat;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 25%, rgba(0, 0, 0, 0.9) 100%), url('../images/afrcover.jpg') no-repeat;
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 25%, rgba(0, 0, 0, 0.9) 100%), url('../images/afrcover.jpg') no-repeat;
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 25%, rgba(0, 0, 0, 0.9) 100%), url('../images/afrcover.jpg') no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 25%, rgba(0, 0, 0, 0.9) 100%), url('../images/afrcover.jpg') no-repeat;
+    background-size: cover; 
+    background-position: 0px 0px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    overflow:visible;
+}

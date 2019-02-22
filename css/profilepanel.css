@@ -1,0 +1,187 @@
+@media only screen and (min-width: 1200px) {
+
+    .widget-profil #profile_social a{ 
+        width: 45px;	
+        height: 45px;	
+        line-height: 45px;	
+        font-size: 24px;	
+    }
+    .widget-profil h1 {
+        font-size: 25px;
+        line-height: 60px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+
+    .widget-profil #profile_social a { 
+        width: 34px;	
+        height: 34px;	
+        line-height: 34px;	
+        font-size: 20px;	
+    }
+
+    .widget-profil h1 {
+        font-size: 24px;
+        line-height: 60px;
+    }
+
+}
+
+@media only screen and (max-width: 260px) {
+    .widget-profil h1 {
+        font-size: 25px !important;
+        line-height: 39px !important;
+    }
+
+    .widget-profil h4 {
+        font-size: 13px !important;
+    }
+
+    .widget-profil{ 	
+        height: 265px !important;
+        margin-bottom: 20px;
+        float: none;
+    }
+    #profile_social {
+        display: none;
+    }
+    #profile_desc {
+        display:none;
+    }
+}
+
+@media only screen  and (max-width: 766px) {
+    .widget-profil{ 	
+        height: 285px !important;
+        margin-bottom: 20px;
+        float: none;
+    }
+    #profile_social {
+        display: none;
+    }
+    #profile_desc {
+        display:none;
+    }
+
+    .widget-profil h1 {
+        font-size: 22px !important;
+        line-height: 39px !important;
+    }
+
+    .widget-profil h4 {
+        font-size: 13px !important;
+    }
+    .joshmuscatdesign
+    {
+        width: 100% !important;
+        margin-left: 0px !important;
+        margin-bottom: 10px !important;
+    }
+    #joshmuscatdesign
+    {
+        text-align: center;
+    }
+    .pageicon:hover .mainfx-detail h6 {
+    margin: 0px 0 0px 0; }
+}
+
+@media only screen and (min-width : 766px) and (max-width: 800px) {
+    .widget-profil{ 	
+        height: 240px !important;
+        margin-bottom: 20px;
+        float: none;
+    }
+    #profile_social {
+        display: none;
+    }
+}
+
+@media only screen and (min-width : 550px) and (max-width : 991px) {
+    #profile .cycle-slideshow {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .joshmuscatdesign {
+    width: 70% !important;
+    margin-bottom: 8px !important;
+    margin-left: 20px !important;
+    }
+    #joshmuscatdesign
+    {
+        text-align: center;
+    }
+    .content_2 {
+    height: 80vh !important;
+    padding: 15px 50px 120px !important;      
+    }
+}
+
+@media only screen and (min-width : 400px) and (max-width : 600px) {
+    .content_2 {
+
+    padding: 15px 10px 40px !important;    
+    }
+}
+
+@media only screen and (min-width : 800px) and (max-width : 991px) {
+
+    .widget-profil{ 	
+        height: 240px !important;	
+        margin-bottom: 20px;
+        float: none;
+    }
+
+    #profile_social {
+        display: none;
+    }
+    #profile_desc {
+        border-bottom: 0 !important;
+    }
+    .content_2 {
+
+    padding: 15px 50px 120px !important;      
+    }
+}
+
+.content_2 {
+    /*height: 100vh; !important*/
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    padding: 50px 50px 50px;
+}
+
+@media only screen and (min-width : 0px) and (max-width : 399px) {
+    .content_2 {
+    padding: 0px 0px 0px !important;    
+    }
+    #move-y { 
+    animation: none !important; 
+    -webkit-animation: none !important;
+    }
+    .icon1:hover img {
+  background-color: rgba(220, 220, 220, 0.15);
+    }
+        .icon2:hover img {
+  background-color: rgba(220, 220, 220, 0.15);
+    }
+        .icon3:hover img {
+  background-color: rgba(220, 220, 220, 0.15);
+    }
+        .icon4:hover img {
+  background-color: rgba(220, 220, 220, 0.15);
+    }
+        .icon5:hover img {
+  background-color: rgba(220, 220, 220, 0.15);
+    }
+        .icon6:hover img {
+  background-color: rgba(220, 220, 220, 0.15);
+    }
+        .icon7:hover img {
+  background-color: rgba(220, 220, 220, 0.15);
+    }
+        .icon8:hover img {
+  background-color: rgba(220, 220, 220, 0.15);
+    }
+}
