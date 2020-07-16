@@ -88,7 +88,7 @@
 
 @media only screen and (min-width : 766px) and (max-width: 800px) {
     .widget-profil{ 	
-        height: 240px !important;
+        height: 330px !important;
         margin-bottom: 20px;
         float: none;
     }
@@ -119,24 +119,23 @@
 
 @media only screen and (min-width : 400px) and (max-width : 600px) {
     .content_2 {
-
-    padding: 15px 10px 40px !important;    
+    padding-top: 15px !important;    
+    }
+    .appselect {
+    padding-bottom: 30px !important;
     }
 }
 
 @media only screen and (min-width : 800px) and (max-width : 991px) {
 
     .widget-profil{ 	
-        height: 240px !important;	
+        height: 300px !important;	
         margin-bottom: 20px;
         float: none;
     }
 
     #profile_social {
         display: none;
-    }
-    #profile_desc {
-        border-bottom: 0 !important;
     }
     .content_2 {
 
@@ -145,7 +144,7 @@
 }
 
 .content_2 {
-    /*height: 100vh; !important*/
+    height: 100vh !important;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
@@ -153,6 +152,17 @@
 }
 
 @media only screen and (min-width : 0px) and (max-width : 399px) {
+  .fullscreen-bg__video {
+    width: 350%;
+    left: -100%;
+  }
+    .appselect {
+        padding-bottom: 50px !important;
+    }
+    .row {
+    margin-right: -10px;
+    margin-left: -10px;
+    }
     .content_2 {
     padding: 0px 0px 0px !important;    
     }
