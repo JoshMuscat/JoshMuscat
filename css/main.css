@@ -27,6 +27,7 @@
     margin: -40px 0 0 0px;
     background: url(../images/spinner.GIF) no-repeat;
     background-size: 50% 50%;
+    margin-left: -1.3em;
 }
 #portfolio .mCSB_container { 
     margin-right: 0 !important; 

@@ -20,6 +20,10 @@
   margin-top: 60px;
 }
 
+.widget-profil #profile_info {
+    padding-top: 15px;
+}
+
 .projectpic{
     float: left;
     width: 9%;
@@ -195,13 +199,17 @@ body {
         font-size: 25px !important;
         line-height: 39px !important;
     }
-
+    .coverphoto {
+        z-index: -5 !important;
+    }
+    .profileplace {
+        margin-top: 55px !important;
+    }
     .widget-profil h4 {
         font-size: 13px !important;
     }
-
     .widget-profil{   
-        height: 560px !important;
+        height: 540px !important;
         margin-bottom: 20px;
         float: none;
     }
@@ -657,7 +665,7 @@ margin-left: 15px !important;
     margin-bottom:-100px;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
-    /*margin-top: -1px;*/
+    margin-top: -1px;
 }
 
 .hideshow {
