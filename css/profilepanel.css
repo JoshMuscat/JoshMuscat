@@ -26,6 +26,10 @@
         line-height: 60px;
     }
 
+    .widget-profil p {
+    font-size: 13px;
+    line-height: 20px;
+    }
 }
 
 @media only screen and (max-width: 260px) {
@@ -51,7 +55,7 @@
     }
 }
 
-@media only screen  and (max-width: 766px) {
+@media only screen  and (max-width: 767px) {
     .widget-profil{ 	
         height: 285px !important;
         margin-bottom: 20px;
@@ -86,9 +90,9 @@
     margin: 0px 0 0px 0; }
 }
 
-@media only screen and (min-width : 766px) and (max-width: 800px) {
+@media only screen and (min-width : 768px) and (max-width: 800px) {
     .widget-profil{ 	
-        height: 330px !important;
+        height: 320px !important;
         margin-bottom: 20px;
         float: none;
     }
@@ -153,8 +157,7 @@
 
 @media only screen and (min-width : 0px) and (max-width : 399px) {
   .fullscreen-bg__video {
-    width: 350%;
-    left: -100%;
+    width: 450% !important;
   }
     .appselect {
         padding-bottom: 50px !important;
